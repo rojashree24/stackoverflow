@@ -80,7 +80,7 @@ const QuestionDetails = () => {
 
   const location = useLocation();
   // console.log(location)
-  const url="http://localhost:3000"
+  const url = "https://stackclonewebsite.netlify.app";
 
   const handlePostAnswer = (e, answerLength) => {
     e.preventDefault();
